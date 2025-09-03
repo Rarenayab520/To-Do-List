@@ -50,7 +50,7 @@
                 android:textColorHint="@color/hintTextGrey">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/nameEditText"
+                    android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
@@ -69,7 +69,7 @@
                 app:hintTextColor="@color/hintTextGrey">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signupEmailEditText"
+                    android:id="@+id/etEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -89,7 +89,7 @@
                 app:endIconMode="password_toggle">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signupPasswordEditText"
+                    android:id="@+id/etPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
@@ -109,7 +109,7 @@
                 app:endIconMode="password_toggle">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/confirmPasswordEditText"
+                    android:id="@+id/etConfirmPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
@@ -118,7 +118,7 @@
 
             <!-- Signup Button -->
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/signupButton"
+                android:id="@+id/btnSignUp"
                 style="@style/Widget.MaterialComponents.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
